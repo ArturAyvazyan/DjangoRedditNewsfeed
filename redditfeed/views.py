@@ -75,7 +75,3 @@ def search(request):
 def zaplatka(request):
     newis = News.objects.order_by('-id')
     return render(request, 'zaplatka.html', {'newis': newis})
-
-
-#notes = News.objects.values().filter(text = f'{rest}').values_list("text", flat=True)
-#print(News.objects.values())
