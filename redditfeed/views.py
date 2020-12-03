@@ -18,11 +18,11 @@ def home(request):
 
 
 def SubredditName():
-    reddit = praw.Reddit(client_id ='tarciQXpZUPk_w',
-    client_secret='PPED3JSJ0ph7E1Zh-TbR_W0s_jU',
-    username='russkiypython',
-    password = 'Faqser95',
-    user_agent='russkiypython1')
+    reddit = praw.Reddit(client_id ='YourIDHere',
+    client_secret='YourSecretKeyHere',
+    username='YourUsernameHere',
+    password = 'YourPasswordHere',
+    user_agent='YourUserAgentHere')
 
     subreddit = reddit.subreddit('popular')
 
